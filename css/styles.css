@@ -1,0 +1,122 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link {
+  font-family: 'Playfair Display', serif;
+  margin: 10px 0;
+  font-size: 1.15rem;
+}
+
+/* target links in the navbar to change color */
+.navbar-light .navbar-nav .nav-link {
+  color: #3f72af;
+}
+
+#home {
+  background-color: #dbe2ef;
+  position: relative;
+}
+
+/* #home::after {
+  content: "";
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  bottom: -75px;
+  background-image: url("../images/divider2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transform: rotate(180deg);
+} */
+.home {
+  padding: 8% 0;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+}
+
+/* NOTE: create a 215px as smallest size */
+.profile-img {
+  height: 215px;
+  margin-bottom: 10%;
+}
+
+.heading-container {
+  margin-bottom: 10%;
+}
+
+.big-heading {
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.25;
+  font-weight: 900;
+  font-family: 'Playfair Display', serif;
+  color: #3f72af;
+  margin-bottom: 15px;
+}
+
+.subtitle-heading {
+  font-size: 1.15rem;
+  font-weight: 300;
+  line-height: 1.125;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #3f72af;
+}
+
+/* ABOUT SECTION STYLES */
+#about {
+  background-color: #f9f7f7;
+}
+
+.about-img {
+  height: 75px;
+}
+
+.about-img-container {
+  background-color: #3e72ae;
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+
+.about-section {
+  padding: 10%;
+  text-align: center;
+}
+
+.about-desc {
+  font-weight: 300;
+  color: #112d4e;
+  margin-bottom: 0;
+}
+
+.about-title {
+  font-family: 'Playfair Display', serif;
+  margin: 20px 0 10px;
+  color: #3f72af;
+  font-size: 1.75rem;
+  font-style: italic;
+  font-weight: 700;
+}
+
+@media (min-width: 425px) {}
+
+@media (min-width: 768px) {
+  .nav-link {
+    margin: 25px;
+  }
+
+  .big-heading {
+    font-size: 4rem;
+  }
+}
