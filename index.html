@@ -6,12 +6,15 @@
   <meta charset="UTF-8">
   <meta name="description" content="👩🏽‍💻 Talei Pono | 💻 Web Developer | 📍Las Vegas, NV">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <!-- My Custom CSS -->
   <link rel="stylesheet" href="css/styles.css">
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/2c3531125f.js" crossorigin="anonymous"></script>
   <title>Talei Pono</title>
 </head>
 
@@ -84,13 +87,81 @@
     </div>
   </section>
 
+
   <!-- projects section -->
   <section id="projects" class="">
+    <!-- make carousel only visible on tablet and larger -->
+    <!-- <h2>Projects</h2> -->
+    <div class="project-container">
+      <h3 class="project-title">Design Project</h3>
+      <img src="images/projects-img.png" class="project-img" alt="project-img">
+      <div class="project-desc-container">
+        <h4 class="project-subtitle">Background</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="project-desc-container">
+        <h4 class="project-subtitle">Scope</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <button type="button" class="btn btn-primary btn-block custom-primary-btn">Demo <i class="fas fa-laptop-code"></i></button>
+      <button type="button" class="btn btn-outline-secondary btn-block">Source <i class="fab fa-github"></i></button>
 
+    </div>
+
+    <div class="project-container">
+      <h3 class="project-title">Web App</h3>
+      <img src="images/projects-img.png" class="project-img" alt="project-img">
+      <div class="project-desc-container">
+        <h4 class="project-subtitle">Background</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="project-desc-container">
+        <h4 class="project-subtitle">Scope</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <button type="button" class="btn btn-primary btn-block custom-primary-btn">Demo <i class="fas fa-laptop-code"></i></button>
+      <button type="button" class="btn btn-outline-secondary btn-block">Source <i class="fab fa-github"></i></button>
+    </div>
+
+    <div class="project-container">
+      <h3 class="project-title">Mobile App</h3>
+      <img src="images/projects-img.png" class="project-img" alt="project-img">
+      <div class="project-desc-container">
+        <h4 class="project-subtitle">Background</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="project-desc-container">
+        <h4 class="project-subtitle">Scope</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <button type="button" class="btn btn-primary btn-block custom-primary-btn">Demo <i class="fas fa-laptop-code"></i></button>
+      <button type="button" class="btn btn-outline-secondary btn-block">Source <i class="fab fa-github"></i></button>
+    </div>
   </section>
 
   <!-- contact section -->
   <section id="contact" class="">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="contact-title">Contact</h2>
+        <p class="contact-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <ul class="contact-list">
+          <li class="contact-list-item"><i class="contact-list-icon far fa-envelope"></i> taleipono@gmail.com</li>
+          <li class="contact-list-item"><i class="contact-list-icon fab fa-github"></i> taleisagawinit</li>
+          <li class="contact-list-item"><i class="contact-list-icon fab fa-linkedin-in"></i> Talei Sagawinit</li>
+          <li class="contact-list-item"><i class="contact-list-icon fab fa-instagram"></i> hellopono</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <form class="form-signin" action="index.html" method="post">
+          <input name="name" type="text" class="form-control top" placeholder="Name" required>
+          <input name="email" type="email" class="form-control middle" placeholder="Email" required>
+          <textarea name="message" class="form-control bottom" placeholder="Message" rows="8" cols="80" required></textarea>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Send ✨</button>
+
+        </form>
+      </div>
+    </div>
 
   </section>
 

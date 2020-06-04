@@ -2,6 +2,12 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+p {
+  font-weight: 300;
+  color: #112d4e;
+  margin-bottom: 0;
+}
+
 .nav-link {
   font-family: 'Playfair Display', serif;
   margin: 10px 0;
@@ -108,6 +114,125 @@ body {
   font-style: italic;
   font-weight: 700;
 }
+
+/* PROJECT SECTION */
+#projects {
+  background-color: #dbe2ef;
+  text-align: center;
+  padding: 8%;
+}
+
+.project-container {
+  margin: 15% 0;
+}
+
+.project-img {
+  max-width: 100vw;
+}
+
+.project-title {
+  font-family: 'Playfair Display', serif;
+  color: #3f72af;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.project-subtitle {
+  font-size: 1.25rem;
+  color: #3e72ae;
+  font-style: italic;
+}
+
+.project-desc-container {
+  margin: 20px 0;
+}
+
+.project-header {
+  display: flex;
+  justify-content: center;
+}
+
+/* CONTACT SECTION */
+
+#contact {
+  text-align: center;
+}
+
+.contact-title {
+  font-family: 'Playfair Display', serif;
+  margin: 20px 0 10px;
+  color: #3f72af;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.contact-desc {
+  padding: 5%;
+}
+
+.contact-list {
+  list-style: none;
+  padding-left: 0;
+  text-align: left;
+  width: fit-content;
+  margin: auto;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.contact-list-icon {
+  margin-right: 15px;
+  font-size: 1.5rem;
+  color: #3f72af;
+}
+
+.contact-list-item {
+  margin: 20px 0;
+}
+
+/* FORM SECTION */
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin .top {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin .middle {
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.form-signin .bottom {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/* .contact-list-item {
+  display: flex;
+  justify-content: space-between;
+} */
 
 @media (min-width: 425px) {}
 
